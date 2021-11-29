@@ -1,0 +1,41 @@
+Client ID: 785687696781737995
+
+Prefix: ~
+
+Brief Description: A customizable anime bot that uses a system of plugins that allows you to enable features such as moderation, music, etc.
+
+
+Detailed Description:
+
+The bot is a customizable anime bot that has 5 plugins that you can pick and choose from, on top of the base anime commands that can search myanimelist for animes/mangas and retrieve your myanimelist stats/lists. 
+The 5 plugins include Music, Moderation, Utility, Leveling and Join/Leave Messages. 
+The bot also allows for customizable prefixes, which can prevent prefix overlaps with other bots. 
+The help command also displays all the commands availble for you given your current plugins you have enabled. 
+Calling the help command while specifying the category will also give you more information about each individual command in that category. 
+Calling the about command lets you view information about the bot and your current plugin configuration. 
+
+Here is a shortlist of commands that are enabled by default when you invite the bot (you can see the rest by enabling a plugin and calling the help command to view the new commands):
+
+Weeb Commands:
+anime,
+manga,
+animeList,
+mangaList,
+animeStats,
+mangaStats
+
+Other Commands:
+help,
+about,
+plugins,
+enablePlugin,
+disablePlugin,
+links,
+setPrefix
+
+
+Tags: Music, Moderation, Anime, Utility, Customizable Behavior, Leveling
+
+Support Server Invite: YC9h8t3Kxb
+
+Invite url: https://discord.com/api/oauth2/authorize?client_id=785687696781737995&permissions=1610088438&redirect_uri=https%3A%2F%2Fdiscord.com%2Fapi%2Foauth2%2Fauthorize%3Fclient_id%3D785687696781737995%26permissions%3D1408761718%26redirect_uri%3Dhttps%253A%252F%252Fdiscord.com%252Fapi%252Foauth2%252Fauthorize%253Fclient_id&scope=bot
