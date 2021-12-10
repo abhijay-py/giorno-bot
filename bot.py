@@ -20,14 +20,17 @@ from leveling import *
 
 def getPrefix(client, message):
     if message.guild == None:
-        return "~"
-    conn = create_connection("fullDB.db")
-    curr = conn.cursor()
-    curr.execute("SELECT guild,prefix FROM prefixes;")
-    results = curr.fetchall()
-    guilds = [int(i[0]) for i in results]
-    index = guilds.index(message.guild.id)
-    if results[index][1] == "~":
+        return ["~", "-"]
+    try:
+        conn = create_connection("fullDB.db")
+        curr = conn.cursor()
+        curr.execute("SELECT guild,prefix FROM prefixes;")
+        results = curr.fetchall()
+        guilds = [int(i[0]) for i in results]
+        index = guilds.index(message.guild.id)
+        if results[index][1] == "~":
+            return ["~", "-"]
+    except:
         return ["~", "-"]
     return results[index][1]
 
@@ -35,7 +38,7 @@ beforeReady = True
 programmerID = 721170371826679841
 botID = 785687696781737995
 logID = 820117325109919754
-token = os.environ['DISCORD TOKEN']
+token = "Nzg1Njg3Njk2NzgxNzM3OTk1.X87esA.MDGUjmR1g7xyCzZY89eVWUlgKII"
 EMAIL_ADDRESS = "zerotwobotdiscord@gmail.com"
 PASSWORD = "Darling1602"
 intents = discord.Intents.default()
