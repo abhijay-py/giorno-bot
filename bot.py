@@ -40,7 +40,7 @@ def getPrefix(client, message):
 programmerID = 721170371826679841
 botID = 785687696781737995
 logID = 820117325109919754
-token = "Nzg1Njg3Njk2NzgxNzM3OTk1.X87esA.MDGUjmR1g7xyCzZY89eVWUlgKII"
+token = os.environ("TOKEN")
 
 intents = discord.Intents.default()
 intents.members = True
