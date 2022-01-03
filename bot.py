@@ -36,9 +36,7 @@ beforeReady = True
 programmerID = 721170371826679841
 botID = 785687696781737995
 logID = 820117325109919754
-token = "NzcyOTE2Njg0MjE4NDMzNTM2.X6BowQ.gtikPL6-G8P9_2sQjzdIxLO5z14"
-EMAIL_ADDRESS = "zerotwobotdiscord@gmail.com"
-PASSWORD = "Darling1602"
+token = os.environ["TOKEN"]
 intents = discord.Intents.default()
 intents.members = True
 client = commands.Bot(command_prefix=getPrefix, intents=intents, case_insensitive=True)
