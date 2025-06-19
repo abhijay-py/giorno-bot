@@ -1,0 +1,14 @@
+discord.py
+asyncio
+mal
+bs4
+requests
+disputils
+sympy
+matplotlib
+youtube_dl
+async_timeout
+datetime
+pytz
+flask
+wavelink
